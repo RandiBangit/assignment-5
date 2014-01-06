@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#260014;
+}
+
+p:before {
+	content:"\0022";
+	font-size:500%;
+	float:left;
+	color:#A8184B;
+}
+
+p:after{
+	content:"\0022";
+	font-size:500%;
+	float:right;
+	color:#A8184B;
+}
+
+blockquote{
+	font-size:26px;
+	color:#FFF;
+	padding:1rem 1rem;
+	text-align:left;
+	background-color:#800040;
+	margin:8rem 20rem;
+	border-radius:15px;
+}
+
+.author{
+	padding-left:32rem;
+	color:#EF8FB3;
+}
